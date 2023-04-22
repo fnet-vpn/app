@@ -1,17 +1,18 @@
 {
 // version for updating, if there is an update, need to change more numbers than before
-"Version":"1.4",
+"Version":"1.5",
 //link for server update
-"title":"Config version - 1.4",
-"Url":"https://github.com/fnet-vpn/app/raw/main/file/filev002.zip" ,
+"title":"Config version - 1.5",
+"Url":"https://github.com/fnet-vpn/app/raw/main/file/filev003.zip" ,
 "Changelog":"
-Latest update April-20-2023
+Latest update April-22-2023
 
-New TH-VIP server added
+New TH server added
 
 VIP | 1Month - 50Baht
 🇮🇩SG-FREE Server
-🇹🇭TH-Bangmod-FREE Server
+🇹🇭TH-CSNE FREE Server
+🇹🇭TH-Bangmod-VIP Server
 🇹🇭TH-VIP Server
 DTAC No Pro
 TRUE No Pro
