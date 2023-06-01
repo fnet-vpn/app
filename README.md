@@ -1,3 +1,4 @@
 # app
-#FNET VPN
-#https://fnetvpn.website/
+FNET VPN
+
+https://fnetvpn.website/
