@@ -1,93 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <title>FNET VPN</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>FNET VPN | TH</title>
-  <link rel="icon" type="image/png" href="img/app_logo.png"/>
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.cmss">
-    
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <link rel="stylesheet" href="css/fnet/style.css">
+  <meta name="description" content="free network">
+<link rel="shortcut icon" href="img/app_logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="css/fnet/style2.css">
 </head>
 
-    <body>
-        <center>
-<div class='sora-author-box'>
-<div class='sora-author-box-image'></div>
-<img src="img/InstaMocks_20230424_063236156-removebg-preview.png" class="w3-round-large" alt="fnetvpn" style="width:90%">
-<div class='sora-author-box-text1'>
-<div class='sora-author-box-text-head'>
-</br>
-<span class='hello-txt'>NEW 🎉🎉</span>
-<h2 class='profile-title'><span></span>FNET VPN</h2>
-<h3 class='profile-position'>Thailand &#9989;</h3>
-</div>
-</center>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark">
+  <a class="navbar-brand" href="https://fnetvpn.website">FNET VPN</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+     
+          <li class="nav-item">
+       <a class="nav-link" href="https://m.me/taknds65">Contact</a>
+      </li>
+   
+    </ul>
+  </div>  
+</nav>
+<br>
+<br>
+<br>
+<br>
+<center>
+    <h3>Thailand 🇹🇭</h3>
+    <br>
+     <div class="center">
+        <table id="customers">
+            <tr>
+                <th>Name</th>
+                <th>FNET VPN</th>
+            </tr>
+            <tr>
+                <td>Version</td>
+                <td>1.0.2</td>
+            </tr>
+            <tr>
+                <td>Size</td>
+                <td id="file-size">5.17 MB</td>
+            </tr>
+            <tr>
+                <td>App Developer</td>
+                <td>Tint Aung Khaing</td>
+            </tr>
+        </table>
 
-<div class='sora-author-box-text'>
-<div class='sora-author-box-text-details'>
-<ul class='profile-list'>
-</p>
+        <p style="text-align: center;color: red;"> </p>
+        <button class="btn" style="width:95%" onclick="let_download('https://www.mediafire.com/file/w0ekrdmmk1bqvom/FNET+VPN_v1.0.2(2).apk/file');"> Download Now</button>
 
-<li class='clearfix'>
-<strong class='list-title'><span class='list-button'>Size</span></strong>
-<span class='cont'><i class='fa fa-file'></i>5.17 MB</span>
-</li>
-<li class='clearfix'>
-<strong class='list-title'><span class='list-button'>Version</span></strong>
-<span class='cont'><i class='fa fa-edit'></i>1.0.2</span>
-</li>
-<li class='clearfix'>
-<strong class='list-title'><span class='list-button'>Updated</span></strong>
-<span class='cont'><i class='fa fa-calendar'></i>April 24, 2023</span>
-</li>
-<li class='clearfix'>
-<strong class='list-title'><span class='list-button'>Requires</span></strong>
-<span class='cont'><i class='fa fa-android'></i>4.1 and up</span>
-</li>
-<li class='clearfix'>
-<strong class='list-title'><span class='list-button'>Developer</span></strong>
-<span class='cont'><i class='fa fa-code'></i><a href='https://www.facebook.com/taknds65' style='color: rgb( 157,160,167)'><font color='#9da0a7'>Tint Aung Khaing</font></a></span></strong></br>
-</li>
-</ul>
-</div>
-</div></div>
-<div class='sora-cv-author-details wow slideInUp row'>
-<div style='clear: both;'></div>
-<div class='card-action' id='about-btn'>
+        
+        <script>
+            function let_download(url) {
+                window.open(url,"_blank");
+            }
 
-<div class='about-btn'>
-<a class='btn waves-effect' href='https://www.mediafire.com/file/w0ekrdmmk1bqvom/FNET+VPN_v1.0.2(2).apk/file'>Download App</a>
+            function dl_drive(url) {
+                url = get_drive_link(url);
+                var anchor = document.createElement('a');
+                anchor.setAttribute('href', url);
+                anchor.setAttribute('download', document.title);
+                anchor.style.display = 'none';
+                document.body.appendChild(anchor);
+                anchor.click();
+                document.body.removeChild(anchor);
+                showToast();
+            }
+
+            function showToast() {
+                var x = document.getElementById("snackbar");
+                x.className = "show";
+                setTimeout(function () { x.className = x.className.replace("show", ""); }, 3000);
+            }
+
+            function get_drive_link(url){
+                return "https://www.googleapis.com/drive/v3/files/"+get_drive_id(url)+"?alt=media&key=AIzaSyBFHimHWDyLOtcNJjA268KwRLhsBuckUxc";
+            }
+
+            function get_drive_id(url){
+                return url.match(/[-\w]{25,}/);
+            }
+
+        </script>
+    </div>
+    
+<br>
+<div class="container">
+<code><h5>VIP 1Month 50฿</h5></code>
 </div>
-</div>
-</div>
+<img src="img/InstaMocks_20230424_063236156-removebg-preview.png" class="w3-round-large" alt="fnetvpn" style="width:65%">
+<p style="font-size:4vw">© 2023 M-66P Systems</p>
 </body>
-<!--Start of Tawk.to Script-->
+</head>
+</html>
 
-<script type="text/javascript">
 
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-
-(function(){
-
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-
-s1.async=true;
-
-s1.src='https://embed.tawk.to/647a4d887c7b15544f3eae4c/1h1urtoet';
-
-s1.charset='UTF-8';
-
-s1.setAttribute('crossorigin','*');
-
-s0.parentNode.insertBefore(s1,s0);
-
-})();
-
-</script>
-
-<!--End of Tawk.to Script-->
