@@ -3,7 +3,7 @@ body {margin:0;}
 
 .navbar {
   overflow: hidden;
-  background-color:#3DC133;
+  background-color:#4CAF50;
   position: fixed;
   top: 0;
   width: 100%;
@@ -19,7 +19,7 @@ body {margin:0;}
         .btn {
             border-radius: 2px;
             margin-bottom: 10px;
-            background-color:#3DC133;
+            background-color:#4CAF50;
             border: none;
             color: white;
             padding: 5px 5px;
@@ -58,7 +58,7 @@ body {margin:0;}
             padding-top: 12px;
             padding-bottom: 12px;
             text-align: left;
-            background-color: #3DC133;
+            background-color: #4CAF50;
             color: white;
         }
 
