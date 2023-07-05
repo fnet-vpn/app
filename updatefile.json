@@ -1,13 +1,13 @@
 {
 // version for updating, if there is an update, need to change more numbers than before
-"Version":"1.7",
+"Version":"1.8",
 //link for server update
-"title":"Config version - 1.7",
-"Url":"https://github.com/fnet-vpn/app/raw/main/file/filev005.zip" ,
+"title":"Config version - 1.8",
+"Url":"https://github.com/fnet-vpn/app/raw/main/file/filev006.zip" ,
 "Changelog":"
-Latest update 10-June-2023
+Latest update 05-July-2023
 
-New TH Bangmod server
+New TH Bangmod VIP3 server
 
 VIP | 1Month - 50Baht
 🇹🇭TH-Bangmod-VIP Server
