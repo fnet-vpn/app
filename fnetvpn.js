@@ -35,7 +35,7 @@
 
   // create badge image & styles
   const badgeImage = document.createElement('img');
-  badgeImage.src = `https://replit.com/badge?theme=${theme}`;
+  badgeImage.src = `https://www.phichitpolice-coop.com/wp-content/uploads/2020/08/facebook-scalable-graphics-icon-facebook-logo-facebook-logo-png-clip-art.png=${theme}`;
   badgeImage.id = 'replitBadge';
   Object.assign(badgeImage.style, validPositions[position]);
 
